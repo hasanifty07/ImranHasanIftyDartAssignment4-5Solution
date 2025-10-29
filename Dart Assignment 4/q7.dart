@@ -1,6 +1,6 @@
 void main() {
   Map<String, String> contactInfo = {
-    "name": "Anika",
+    "name": "Anik",
     "phone": "01700000000",
     "city": "Fenchugonj",
     "zip": "3110",
@@ -11,4 +11,5 @@ void main() {
   );
   print("All contact keys: ${contactInfo.keys.toList()}");
   print("Keys with length 4: ${keysWithLengthFour.toList()}");
+
 }
