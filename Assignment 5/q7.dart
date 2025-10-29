@@ -5,7 +5,7 @@ void main() {
   List<Map<String, dynamic>> students = [
     {"name": "mozid", "age": 50, "address": "7/8,londoni road"},
     {"name": "Shahriar", "age": 65, "address": "11/5,Borbazar"},
-    {"name": "Safwan Faz", "age": 300, "address": "5/9,jalalabad"}
+    {"name": "Safwan Faz", "age": 40, "address": "5/9,jalalabad"}
   ];
   
   String csvContent = "Name,Age,Address\n";
@@ -28,3 +28,4 @@ void main() {
     print("An error occurred during file operation: $e");
   }
 }
+
